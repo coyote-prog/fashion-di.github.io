@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="./images/favicons/favicon.svg">
+  <link rel="icon" type="image/png" href="./images/favicons/favicon.png">
+
+  <title>Fashion-Di</title>
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="holder">
+
+    <header class="header">
+      <div class="header__body">
+
+        <div class="header-top">
+          <div class="container">
+            <div class="header-top__inner">
+
+              <nav class="nav nav-top">
+                <ul class="nav__list nav-top__list">
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="about-brand.html">О бренде</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="magazines.html">Магазины</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="contacts.html">Контакты</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="delivery.html">Доставка и оплата</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="services-page.html">Ателье</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="cooperation.html">Сотрудничество</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="account-box">
+                <button class="btn-primary call-btn open-modal-btn">
+
+                  <svg class="call-btn__svg" role="img" aria-label="phone">
+                    <use class="call-btn__icon" xlink:href="./images/spriteBox/sprite.svg#phone"></use>
+                  </svg>
+
+                  <span class="btn-primary__span">Обратный звонок</span>
+
+                </button>
+
+                <a class="btn-primary account-btn" href="#" aria-label="accont">
+
+                  <svg class="account-btn__svg" role="img" aria-label="">
+                    <use class="account-btn__icon" xlink:href="./images/spriteBox/sprite.svg#account"></use>
+                  </svg>
+
+                  <span class="btn-primary__span">Аккаунт</span>
+
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="header-bottom">
+          <div class="container">
+
+            <div class="header-bottom__inner">
+
+              <button class="menu-toggler-btn" aria-label="menu">
+                <span class="icon-menu__line line-1"></span>
+                <span class="icon-menu__line line-2"></span>
+                <span class="icon-menu__line line-3"></span>
+                <span class="icon-menu__line line-4"></span>
+              </button>
+
+              <button class="btn-primary search-btn search-btn--mobile" aria-label="search">
+                <svg class="search-btn__svg" role="img" aria-label="search">
+                  <use class="search-btn__icon" xlink:href="./images/spriteBox/sprite.svg#search"></use>
+                </svg>
+              </button>
+
+              <a class="logo header__logo" href="index.html" aria-label="fashion-di">
+                <svg class="svg-header__logo" role="img" aria-label="fashion-di">
+                  <use class="icon-header__logo" xlink:href="./images/spriteBox/sprite.svg#logo"></use>
+                </svg>
+              </a>
+
+              <nav class="nav nav-bottom">
+
+                <div class="account-box account-box--mobile">
+
+                  <a class="btn-primary account-btn" href="#" aria-label="accont">
+
+                    <svg class="account-btn__svg" role="img" aria-label="">
+                      <use class="account-btn__icon" xlink:href="./images/spriteBox/sprite.svg#account"></use>
+                    </svg>
+
+                    <span class="btn-primary__span">Аккаунт</span>
+
+                  </a>
+
+                  <button class="btn-primary call-btn open-modal-btn">
+
+                    <svg class="call-btn__svg" role="img" aria-label="phone">
+                      <use class="call-btn__icon" xlink:href="./images/spriteBox/sprite.svg#phone"></use>
+                    </svg>
+
+                    <span class="btn-primary__span">Обратный звонок</span>
+
+                  </button>
+
+                </div>
+
+                <div class="menu-wrapper">
+
+                  <nav class="nav nav-top nav-top--mobile">
+                    <ul class="nav__list nav-top__list nav-top__list--mobile">
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined" href="about-brand.html">О бренде</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined" href="magazines.html">Магазины</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined" href="contacts.html">Контакты</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined" href="delivery.html">Доставка и
+                          оплата</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined" href="services-page.html">Ателье</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="cooperation.html">Сотрудничество</a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                  <ul class="nav__list nav-bottom__list">
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Пальто</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Плащи</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Платья</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Юбки</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Куртки</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </nav>
+
+              <div class="bottom-buttons-box">
+
+                <button class="btn-primary search-btn" aria-label="search">
+                  <svg class="button-svg search-btn__svg" role="img" aria-label="search">
+                    <use class="search-btn__icon" xlink:href="./images/spriteBox/sprite.svg#search"></use>
+                  </svg>
+                </button>
+
+                <a class="btn-primary header__like-btn btn-with-counter" href="favourites-page.html" aria-label="like">
+                  <svg class="button-svg like-btn__svg" role="img" aria-label="like">
+                    <use class="like-btn__icon" xlink:href="./images/spriteBox/sprite.svg#heart"></use>
+                  </svg>
+
+                  <svg class="header__like-btn-svg header__svg-liked" role="img" aria-label="like mark">
+                    <use class="header__like-icon" xlink:href="./images/spriteBox/sprite.svg#heart-fill"></use>
+                   </svg>
+
+                  <span class="count header__like-count">0</span>
+                </a>
+
+                <button class="btn-primary cart-btn btn-with-counter" aria-label="cart">
+                  <svg class="button-svg cart-btn__svg" role="img" aria-label="cart">
+                    <use class="cart-btn__icon" xlink:href="./images/spriteBox/sprite.svg#cart"></use>
+                  </svg>
+
+                  <span class="count">0</span>
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="search-bar">
+
+          <div class="container">
+
+            <div class="search-bar__inner">
+
+              <input class="search__input" type="search" name="" id="search" placeholder="Я ищу...">
+
+              <button class="btn-primary close-btn close-search-btn" aria-label="close">
+                <svg class="close-svg" role="img" aria-label="close">
+                  <use class="close-icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                </svg>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="popup">
+
+        <div class="popup-inner">
+
+          <button class="close-modal-btn" aria-label="close">
+            <svg class="close-btn-pic-box" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+              <path class="close-popup-icon"
+                d="M7 4a.995.995 0 0 0-.707.293l-2 2a.999.999 0 0 0 0 1.414L11.586 15l-7.293 7.293a.999.999 0 0 0 0 1.414l2 2a.999.999 0 0 0 1.414 0L15 18.414l7.293 7.293a.999.999 0 0 0 1.414 0l2-2a.999.999 0 0 0 0-1.414L18.414 15l7.293-7.293a.999.999 0 0 0 0-1.414l-2-2a.999.999 0 0 0-1.414 0L15 11.586 7.707 4.293A.996.996 0 0 0 7 4z" />
+            </svg>
+          </button>
+
+          <div class="popup-content">
+
+            <h2 class="section-title popup-title">Обратный звонок</h2>
+
+            <p class="popup-text">
+              Укажите имя и номер телефона. Наш сотрудник перезвонит вам в ближайшее время.
+            </p>
+
+            <form class="popup-form">
+
+              <fieldset class="popup-form__input-box input-person-name-box">
+                <input class="popup-form__input person-name-input" type="text" placeholder="Ваше имя" required>
+              </fieldset>
+
+              <fieldset class="popup-form__input-box input-person-pfone-box">
+                <input class="popup-form__input person-phone-input" type="text" placeholder="Ваш телефон" required>
+              </fieldset>
+
+              <button class="popup-form__btn link-secondary" type="submit">Заказать звонок</button>
+
+            </form>
+
+            <p class="popup__warning-text">
+              Нажимая кнопку “Зарегистрироваться” вы даете согласие на <a class="popup__link" href="#">обработку
+                персональных данных</a>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card-box">
+        <div class="card-box__inner">
+
+          <div class="card-box__head">
+            <h2 class="card-box__title">Корзина</h2>
+            <button class="card-box__close">
+              <svg class="card-box__svg" role="img" aria-label="">
+                <use class="card-box__icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="card-box__content">
+            <p class="card-box__text">В вашей корзине пока нет товаров</p>
+
+            <ul class="card-box__cards-list cards-list">
+
+              <li class="cards-list__item">
+                <picture class="card-list__item-image-box">
+                  <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                  <source type="image/webp" srcset="./images/jacket.webp 1x, ./images/jacket@2x.webp 2x">
+                  <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                    width="150" height="150" loading="lazy" alt="jacket">
+                </picture>
+
+                <div class="card__info">
+                  <div class="card__info-top">
+
+                    <div class="card__textBox">
+                      <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                      <p class="card__article">Артикул: 00-000-0000-00</p>
+                    </div>
+
+                    <button class="card__closeBtn closeCard">
+                      <svg class="closeCard-svg" role="img" aria-label="">
+                        <use class="closeCard__icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+
+                  </div>
+
+                  <div class="card__info-bottom">
+                    <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+
+                    <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cards-list__item">
+                <picture class="card-list__item-image-box">
+                  <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                  <source type="image/webp" srcset="./images/jacket.png 1x, ./images/jacket@2x.png 2x">
+                  <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                    width="150" height="150" loading="lazy" alt="jacket">
+                </picture>
+
+                <div class="card__info">
+                  <div class="card__info-top">
+
+                    <div class="card__textBox">
+                      <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                      <p class="card__article">Артикул: 00-000-0000-00</p>
+                    </div>
+
+                    <button class="card__closeBtn closeCard">
+                      <svg class="closeCard-svg" role="img" aria-label="">
+                        <use class="closeCard__img" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+
+                  </div>
+
+                  <div class="card__info-bottom">
+                    <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+
+                    <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="card-box__bottom">
+            <div class="card__inputBox">
+              <input class="card__promocod-input" type="text" placeholder="Промокод">
+            </div>
+
+            <div class="card__amountBox">
+              <p class="card__amount-text">Итого</p>
+              <p class="card__amount-price">200 000 ₽</p>
+            </div>
+
+            <a class="card__btn" href="order-page.html">Оформить заказ</a>
+
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class="main">
+
+      <section class="map">
+        <div class="container">
+          <div class="map__inner">
+
+            <h2 class="section-title map__title">
+              МАГАЗИНЫ И ПРЕДСТАВИТЕЛЬСТВА
+            </h2>
+
+            <div class="addresses-select-box">
+              
+               <div class="custom-select">
+  
+                <div class="custom-select__head" tabindex="0">
+
+                  <span class="custom-select__head-text">Loading list...</span>
+            
+                </div>
+
+                <svg class="decor-img-check" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="298" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 298.04"><path fill-rule="nonzero" d="M12.08 70.78c-16.17-16.24-16.09-42.54.15-58.7 16.25-16.17 42.54-16.09 58.71.15L256 197.76 441.06 12.23c16.17-16.24 42.46-16.32 58.71-.15 16.24 16.16 16.32 42.46.15 58.7L285.27 285.96c-16.24 16.17-42.54 16.09-58.7-.15L12.08 70.78z"/></svg>
+            
+                <ul class="custom-options-list">
+                  <li class="custom-option selected" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №1</span>
+                    
+                    <svg class="decor-img"  xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+                    
+                  </li>
+            
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №2</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+            
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №3</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+                  
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №4</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+                  
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №5</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №6</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №7</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №8</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №9</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+
+                  <li class="custom-option" tabindex="0">
+            
+                    <span class="custom-option__text">Название города №10</span>
+                    
+                    <svg class="decor-img" xmlns="http://www.w3.org/2000/svg"  width="18"  height="18"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-copy-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.333 6a3.667 3.667 0 0 1 3.667 3.667v8.666a3.667 3.667 0 0 1 -3.667 3.667h-8.666a3.667 3.667 0 0 1 -3.667 -3.667v-8.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.333 -4c1.094 0 1.828 .533 2.374 1.514a1 1 0 1 1 -1.748 .972c-.221 -.398 -.342 -.486 -.626 -.486h-10c-.548 0 -1 .452 -1 1v9.998c0 .32 .154 .618 .407 .805l.1 .065a1 1 0 1 1 -.99 1.738a3 3 0 0 1 -1.517 -2.606v-10c0 -1.652 1.348 -3 3 -3zm1.293 9.293l-3.293 3.292l-1.293 -1.292a1 1 0 0 0 -1.414 1.414l2 2a1 1 0 0 0 1.414 0l4 -4a1 1 0 0 0 -1.414 -1.414" /></svg>
+            
+                  </li>
+                </ul>
+              </div>
+
+
+            </div>
+
+            <div class="map__wrapper">
+              <aside class="map__addresses-box">
+                <ul class="addresses-list">
+                  <li class="addresses-item"><button class="addresses-btn">Название города №1</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №2</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №3</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №4</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №5</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №6</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №7</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №8</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №9</button></li>
+                  <li class="addresses-item"><button class="addresses-btn">Название города №10</button></li>
+                </ul>
+              </aside>
+
+              <div class="map__box">
+                <div class="map__box-inner">
+                  <iframe src="https://www.google.com/maps/d/embed?mid=1thuDGzMGbpU6mWIlpAKAj8zM51uIPvU&ehbc=2E312F&noprof=1" width="100%" height="100%"></iframe>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="magazines-box">
+
+        <div class="container">
+          <div class="magazines-box__inner">
+
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №1</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №2</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №3</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №4</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №5</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №6</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №7</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №8</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №9</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+            <div class="magazine">
+            
+              <h3 class="magazine__title">Название города №10</h3>
+              <ul class="magazine__items-list">
+                <li class="magazine__item">
+                  <p class="magazine__info">Торговое помещение</p>
+                  <p class="magazine__info">г. Название города, ул. Уличная, 000</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <section class="sending">
+        <div class="container">
+          <div class="sending__inner">
+
+            <h2 class="section-title sending__title">
+              Подпишитесь на нашу рассылку
+            </h2>
+
+            <p class="section-subtitle sending__subtitle">
+              Вы будете получать актуальную информацию об акциях
+              и предложениях.
+            </p>
+
+            <form class="sending__form">
+              <fieldset class="sending__field">
+                <input class="sending__input" placeholder="Введите E-mail" type="email" required>
+
+                <button class="btn-primary sending__btn" type="submit">
+                  <span class="btn-text">Подписаться</span>
+
+                  <svg class="sending-svg" role="img" aria-label="">
+                    <use class="sending-icon" xlink:href="./images/spriteBox/sprite.svg#arrow-up-right"></use>
+                  </svg>
+                </button>
+
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__content-inner">
+
+            <a class="logo footer__logo" href="#" aria-label="fashion-di">
+              <svg class="svg-footer__logo" role="img" aria-label="fashion-di">
+                <use class="icon-footer__logo" xlink:href="./images/spriteBox/sprite.svg#logo"></use>
+              </svg>
+            </a>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №1</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">О бренде</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Магазины</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Контакты</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Доставка и оплата</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Ателье</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Сотрудничество</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №2</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №3</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">КОНТАКТЫ</h3>
+
+              <div class="contact">
+                <p class="contact-name">Шоурум</p>
+
+                <a class="contact-link link-underlined" href="tel:+79999999999">+7 (999) 999 99 99</a>
+              </div>
+
+              <div class="contact">
+                <p class="contact-name">Интернет-магазин</p>
+
+                <a class="contact-link link-underlined" href="tel:+79999999999">+7 (999) 999 99 99</a>
+
+                <a class="contact-link link-underlined" href="mailto:sitename@sitename.ru">sitename@sitename.ru</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__law">
+        <div class="container">
+          <div class="footer__law-inner">
+
+            <p class="footer__law-link footer__copy">© 2023, FASHION DI</p>
+
+            <a class="footer__law-link footer__public" href="#">Публичная оферта</a>
+            <a class="footer__law-link footer__policy" href="#">Политика конфиденциальности</a>
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <script src="./source/jquery.min.js"></script>
+  <script src="./source/mixitup.js"></script>
+  <script src="./source/slick.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

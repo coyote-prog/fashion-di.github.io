@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/svg+xml" href="./images/favicons/favicon.svg">
+  <link rel="icon" type="image/png" href="./images/favicons/favicon.png">
+
+  <title>Fashion-Di</title>
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="holder">
+
+    <header class="header">
+      <div class="header__body">
+
+        <div class="header-top">
+          <div class="container">
+            <div class="header-top__inner">
+
+              <nav class="nav nav-top">
+                <ul class="nav__list nav-top__list">
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="about-brand.html">О бренде</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="magazines.html">Магазины</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="contacts.html">Контакты</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="delivery.html">Доставка и оплата</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="services-page.html">Ателье</a>
+                  </li>
+                  <li class="nav__item nav-top__item">
+                    <a class="nav__link nav-top__link link-underlined" href="cooperation.html">Сотрудничество</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="account-box">
+                <button class="btn-primary call-btn open-modal-btn">
+
+                  <svg class="call-btn__svg" role="img" aria-label="phone">
+                    <use class="call-btn__icon" xlink:href="./images/spriteBox/sprite.svg#phone"></use>
+                  </svg>
+
+                  <span class="btn-primary__span">Обратный звонок</span>
+
+                </button>
+
+                <a class="btn-primary account-btn" href="#" aria-label="accont">
+
+                  <svg class="account-btn__svg" role="img" aria-label="">
+                    <use class="account-btn__icon" xlink:href="./images/spriteBox/sprite.svg#account"></use>
+                  </svg>
+
+                  <span class="btn-primary__span">Аккаунт</span>
+
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="header-bottom">
+          <div class="container">
+
+            <div class="header-bottom__inner">
+
+              <button class="menu-toggler-btn" aria-label="menu">
+                <span class="icon-menu__line line-1"></span>
+                <span class="icon-menu__line line-2"></span>
+                <span class="icon-menu__line line-3"></span>
+                <span class="icon-menu__line line-4"></span>
+              </button>
+
+              <button class="btn-primary search-btn search-btn--mobile" aria-label="search">
+                <svg class="search-btn__svg" role="img" aria-label="search">
+                  <use class="search-btn__icon" xlink:href="./images/spriteBox/sprite.svg#search"></use>
+                </svg>
+              </button>
+
+              <a class="logo header__logo" href="index.html" aria-label="fashion-di">
+                <svg class="svg-header__logo" role="img" aria-label="fashion-di">
+                  <use class="icon-header__logo" xlink:href="./images/spriteBox/sprite.svg#logo"></use>
+                </svg>
+              </a>
+
+              <nav class="nav nav-bottom">
+
+                <div class="account-box account-box--mobile">
+
+                  <a class="btn-primary account-btn" href="#" aria-label="accont">
+
+                    <svg class="account-btn__svg" role="img" aria-label="">
+                      <use class="account-btn__icon" xlink:href="./images/spriteBox/sprite.svg#account"></use>
+                    </svg>
+
+                    <span class="btn-primary__span">Аккаунт</span>
+
+                  </a>
+
+                  <button class="btn-primary call-btn open-modal-btn">
+
+                    <svg class="call-btn__svg" role="img" aria-label="phone">
+                      <use class="call-btn__icon" xlink:href="./images/spriteBox/sprite.svg#phone"></use>
+                    </svg>
+
+                    <span class="btn-primary__span">Обратный звонок</span>
+
+                  </button>
+
+                </div>
+
+                <div class="menu-wrapper">
+
+                  <nav class="nav nav-top nav-top--mobile">
+                    <ul class="nav__list nav-top__list nav-top__list--mobile">
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="about-brand.html">О бренде</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="magazines.html">Магазины</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="contacts.html">Контакты</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="delivery.html">Доставка и
+                          оплата</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="services-page.html">Ателье</a>
+                      </li>
+                      <li class="nav__item nav-top__item nav-top__item--mobile">
+                        <a class="nav__link nav-top__link nav-top__link--mobile link-underlined"
+                          href="cooperation.html">Сотрудничество</a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                  <ul class="nav__list nav-bottom__list">
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Пальто</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Плащи</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Платья</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Юбки</a>
+                    </li>
+                    <li class="nav__item nav-bottom__item">
+                      <a class="nav__link nav-bottom__link link-underlined" href="#">Куртки</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </nav>
+
+              <div class="bottom-buttons-box">
+
+                <button class="btn-primary search-btn" aria-label="search">
+                  <svg class="button-svg search-btn__svg" role="img" aria-label="search">
+                    <use class="search-btn__icon" xlink:href="./images/spriteBox/sprite.svg#search"></use>
+                  </svg>
+                </button>
+
+                <a class="btn-primary header__like-btn btn-with-counter" href="favourites-page.html" aria-label="like">
+                  <svg class="button-svg like-btn__svg" role="img" aria-label="like">
+                    <use class="like-btn__icon" xlink:href="./images/spriteBox/sprite.svg#heart"></use>
+                  </svg>
+
+                  <svg class="header__like-btn-svg header__svg-liked" role="img" aria-label="like mark">
+                    <use class="header__like-icon" xlink:href="./images/spriteBox/sprite.svg#heart-fill"></use>
+                  </svg>
+
+                  <span class="count header__like-count">1</span>
+                </a>
+
+                <button class="btn-primary cart-btn btn-with-counter" aria-label="cart">
+                  <svg class="button-svg cart-btn__svg" role="img" aria-label="cart">
+                    <use class="cart-btn__icon" xlink:href="./images/spriteBox/sprite.svg#cart"></use>
+                  </svg>
+
+                  <span class="count">0</span>
+
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="search-bar">
+
+          <div class="container">
+
+            <div class="search-bar__inner">
+
+              <input class="search__input" type="search" name="" id="search" placeholder="Я ищу...">
+
+              <button class="btn-primary close-btn close-search-btn" aria-label="close">
+                <svg class="close-svg" role="img" aria-label="close">
+                  <use class="close-icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                </svg>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="popup">
+
+        <div class="popup-inner">
+
+          <button class="close-modal-btn" aria-label="close">
+            <svg class="close-btn-pic-box" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+              <path class="close-popup-icon"
+                d="M7 4a.995.995 0 0 0-.707.293l-2 2a.999.999 0 0 0 0 1.414L11.586 15l-7.293 7.293a.999.999 0 0 0 0 1.414l2 2a.999.999 0 0 0 1.414 0L15 18.414l7.293 7.293a.999.999 0 0 0 1.414 0l2-2a.999.999 0 0 0 0-1.414L18.414 15l7.293-7.293a.999.999 0 0 0 0-1.414l-2-2a.999.999 0 0 0-1.414 0L15 11.586 7.707 4.293A.996.996 0 0 0 7 4z" />
+            </svg>
+          </button>
+
+          <div class="popup-content">
+
+            <h2 class="section-title popup-title">Обратный звонок</h2>
+
+            <p class="popup-text">
+              Укажите имя и номер телефона. Наш сотрудник перезвонит вам в ближайшее время.
+            </p>
+
+            <form class="popup-form">
+
+              <fieldset class="popup-form__input-box input-person-name-box">
+                <input class="popup-form__input person-name-input" type="text" placeholder="Ваше имя" required>
+              </fieldset>
+
+              <fieldset class="popup-form__input-box input-person-pfone-box">
+                <input class="popup-form__input person-phone-input" type="text" placeholder="Ваш телефон" required>
+              </fieldset>
+
+              <button class="popup-form__btn link-secondary" type="submit">Заказать звонок</button>
+
+            </form>
+
+            <p class="popup__warning-text">
+              Нажимая кнопку “Зарегистрироваться” вы даете согласие на <a class="popup__link" href="#">обработку
+                персональных данных</a>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card-box">
+        <div class="card-box__inner">
+
+          <div class="card-box__head">
+            <h2 class="card-box__title">Корзина</h2>
+            <button class="card-box__close">
+              <svg class="card-box__svg" role="img" aria-label="">
+                <use class="card-box__icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="card-box__content">
+            <p class="card-box__text">В вашей корзине пока нет товаров</p>
+
+            <ul class="card-box__cards-list cards-list">
+
+              <li class="cards-list__item">
+                <picture class="card-list__item-image-box">
+                  <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                  <source type="image/webp" srcset="./images/jacket.webp 1x, ./images/jacket@2x.webp 2x">
+                  <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                    width="150" height="150" loading="lazy" alt="jacket">
+                </picture>
+
+                <div class="card__info">
+                  <div class="card__info-top">
+
+                    <div class="card__textBox">
+                      <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                      <p class="card__article">Артикул: 00-000-0000-00</p>
+                    </div>
+
+                    <button class="card__closeBtn closeCard">
+                      <svg class="closeCard-svg" role="img" aria-label="">
+                        <use class="closeCard__icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+
+                  </div>
+
+                  <div class="card__info-bottom">
+                    <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+
+                    <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cards-list__item">
+                <picture class="card-list__item-image-box">
+                  <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                  <source type="image/webp" srcset="./images/jacket.png 1x, ./images/jacket@2x.png 2x">
+                  <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                    width="150" height="150" loading="lazy" alt="jacket">
+                </picture>
+
+                <div class="card__info">
+                  <div class="card__info-top">
+
+                    <div class="card__textBox">
+                      <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                      <p class="card__article">Артикул: 00-000-0000-00</p>
+                    </div>
+
+                    <button class="card__closeBtn closeCard">
+                      <svg class="closeCard-svg" role="img" aria-label="">
+                        <use class="closeCard__img" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+
+                  </div>
+
+                  <div class="card__info-bottom">
+                    <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+
+                    <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="card-box__bottom">
+            <div class="card__inputBox">
+              <input class="card__promocod-input" type="text" placeholder="Промокод">
+            </div>
+
+            <div class="card__amountBox">
+              <p class="card__amount-text">Итого</p>
+              <p class="card__amount-price">200 000 ₽</p>
+            </div>
+
+            <a class="card__btn" href="order-page.html">Оформить заказ</a>
+
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main class="main">
+
+      <section class="order">
+        <div class="container">
+          <div class="order__inner">
+
+            <h2 class="section-title order__title">ОФОРМЛЕНИЕ ЗАКАЗА</h2>
+
+            <p class="order__counter"><span class="order__count">2</span>товара</p>
+
+            <a class="go-to-order-row" href="#order-form">
+
+              <svg class="go-to-order__svg" role="img" aria-label="arrow">
+               <use class="go-to-order-icon" xlink:href="./images/spriteBox/sprite.svg#arrow-right"></use>
+              </svg>
+
+              <span class="go-to-order-text">Перейти к оформлению</span>
+
+              <svg class="go-to-order__svg" role="img" aria-label="arrow">
+                <use class="go-to-order-icon" xlink:href="./images/spriteBox/sprite.svg#arrow-right"></use>
+               </svg>
+            </a>
+
+            <div class="order__content">
+
+              <div class="order__composition">
+
+                <div class="order__composition-box">
+
+                  <ul class="order__composition-list">
+
+                    <li class="cards-list__item order__composition-list-item">
+                      <picture class="card-list__item-image-box order__composition-list-item-image-box">
+                        <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                        <source type="image/webp" srcset="./images/jacket.webp 1x, ./images/jacket@2x.webp 2x">
+                        <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                          width="150" height="150" loading="lazy" alt="jacket">
+                      </picture>
+                      <div class="card__info">
+                        <div class="card__info-top">
+                          <div class="card__textBox">
+                            <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                            <p class="card__article">Артикул: 00-000-0000-00</p>
+                          </div>
+                          <button class="card__closeBtn closeCard">
+                            <svg class="closeCard-svg" role="img" aria-label="">
+                              <use class="closeCard__icon" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="card__info-bottom order__composition-card-bottom">
+                          <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+                          <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="cards-list__item order__composition-list-item">
+                      <picture class="card-list__item-image-box order__composition-list-item-image-box">
+                        <source type="image/avif" srcset="./images/jacket.avif 1x, ./images/jacket@2x.avif 2x">
+                        <source type="image/webp" srcset="./images/jacket.png 1x, ./images/jacket@2x.png 2x">
+                        <img class="card-list__item-img" src="./images/jacket.png" srcset="./images/jacket@2x.png 2x"
+                          width="150" height="150" loading="lazy" alt="jacket">
+                      </picture>
+                      <div class="card__info">
+                        <div class="card__info-top">
+                          <div class="card__textBox">
+                            <p class="card__description">Небольшое описание товара с указанием элементов</p>
+                            <p class="card__article">Артикул: 00-000-0000-00</p>
+                          </div>
+                          <button class="card__closeBtn closeCard">
+                            <svg class="closeCard-svg" role="img" aria-label="">
+                              <use class="closeCard__img" xlink:href="./images/spriteBox/sprite.svg#close"></use>
+                            </svg>
+                          </button>
+                        </div>
+                        <div class="card__info-bottom order__composition-card-bottom">
+                          <p class="card__info-quantity">Кол-во: <span class="card__info-number">1</span></p>
+                          <p class="card__info-price"><span class="card__info-amount">100 000</span> ₽</p>
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                  <div class="order__preliminary">
+
+                    <p class="order__preliminary-text">Предварительная сумма</p>
+                    <div class="order__preliminary--amount-box">
+                      <span class="order__preliminary__amount">200 000</span>
+                      <span class="order__preliminary__currency">&#8381;</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="product-help order__help">
+
+                  <p class="product-help__text order__quection">Нужна помощь с заказом?
+                  </p>
+
+                    <p class="product-help__text order__text">Вы можете получить консультацию по телефону или через месседжер (10:00-22:00 без выходных):
+                  </p>
+                  
+                  <div class="links-box order__links-box">
+                    <a class="phone-call-link product-help__link link-underlined" rel="noopener" href="tel:+79999999999"
+                      aria-label="">
+                      <svg class="product-help__svg order__svg" role="img" aria-label="phone">
+                        <use class="product-help__icon phone-icon" xlink:href="./images/spriteBox/sprite.svg#phone">
+                        </use>
+                      </svg>
+                      <span class="product-help__link-text order__link-text">+7 (999) 999 99 99</span>
+                    </a>
+                    <a class="whatapp-link product-help__link link-underlined" rel="noopener" href="#"
+                      aria-label="WhatsApp">
+  
+                      <img class="product-help__svg" src="./images/whatsapp-light.svg" width="20" height="20"
+                        loading="lazy" alt="WhatsApp">
+
+                      <span class="product-help__link-text order__link-text">WhatsApp</span>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="order__terms" id="order-form">
+
+                <div class="order__terms__warning">
+
+                  <p class="order__terms__warning-text">
+                    ОБРАТИТЕ ВНИМАНИЕ: количество позиций, доступных для оформления в одном заказе ограничено 7
+                    единицами.
+                  </p>
+
+                  <p class="order__terms__warning-text">
+                    При заказе большего количества с Вами свяжется менеджер интернет-магазина, чтобы скорректировать
+                    количество позиций в заказе на Ваш выбор.
+                  </p>
+
+                </div>
+
+                <form class="order-terms__form" name="order-form">
+
+                  <div class="order__contacts">
+                    
+                    <div class="order__contacts-heaing">
+                      <h4 class="order__contacts-title counter-title">Контактные данные</h4>
+                      <p class="order__contacts-hint">Обязательные поля*</p>
+                    </div>
+
+                      <fieldset class="order__contacts-area">
+                        
+                        <input class="order__contacts-inpt order__name-input" type="text" placeholder="Полное имя*" required>
+                        
+                        <input class="order__contacts-inpt order__phone-input" type="tel" placeholder="Телефон*" required>
+                        
+                        <input class="order__contacts-inpt order__email-input" type="email" placeholder="E-mail*" required>
+                      
+                      </fieldset>
+
+                  </div>
+
+                  <div class="order__delivery">
+
+                    <div class="order__delivery-heaing">
+                      <h4 class="order__delivery-title counter-title">Способ доставки</h4>
+                    </div>
+
+                    <fieldset class="order-list order__delivery-list">
+                  
+                      <div class="order-list__item item order__delivery-item">
+                        <label class="custom-radio-label" for="radio-self">
+                         
+                          <input class="custom-radio" type="radio" name="my-radio-group" id="radio-self">
+
+                         <span class="custom-radio-style"></span>
+                        </label>
+
+                        <div class="order-list__item-content order__delivery-content">
+                          
+                          <div class="order-list__item-service-box order__delivery-service-box">
+                            <h5 class="order-list__item-service-name order__delivery-service-name">Самовывоз</h5>
+
+                            <p class="order-list__item-price-value order__delivery-price-value">
+                              бесплатно
+                            </p>
+                            
+                          </div>
+
+                          <div class="order-list__item-price order__delivery-price">
+                            <p class="order-list__item-service-text order__delivery-service-text">
+                              Вы можете самостоятельно забрать заказ из нашего магазина
+                            </p>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="order-list__item item order__delivery-item">
+                        <label class="custom-radio-label" for="radio-courier">
+                         
+                          <input class="custom-radio" type="radio" name="my-radio-group" id="radio-courier">
+
+                         <span class="custom-radio-style"></span>
+                        </label>
+
+                        <div class="order-list__item-content order__delivery-content">
+                          
+                          <div class="order-list__item-service-box order__delivery-service-box">
+                            <h5 class="order-list__item-service-name order__delivery-service-name order__courier"><span class="order-elem-mobile">Доставка</span> курьером</h5>
+
+                            <p class="order-list__item-price-value order__delivery-price-value">
+                              бесплатно
+                            </p>
+                            
+                          </div>
+
+                          <div class="order-list__item-price order__delivery-price">
+
+                            <p class="order-list__item-service-text order__delivery-service-text">
+                              Доставка осуществляется в течении дня в удобное для вас время
+                            </p>
+                            
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </fieldset>
+                    
+                  </div>
+
+                  <div class="order__payment">
+
+                    <div class="order__payment-heaing">
+                      <h4 class="order__payment-title counter-title">Способ оплаты</h4>
+                    </div>
+
+                    <fieldset class="order__payment-list">
+                  
+                      <div class="order-list__item item order__payment-item">
+                        <label class="custom-radio-label" for="radio-payment">
+                         
+                          <input class="custom-radio" type="radio" name="my-payment-group" id="radio-payment">
+
+                         <span class="custom-radio-style"></span>
+                        </label>
+
+                        <div class="order-list__item-content order__payment-content">
+                          
+                          <div class="order-list__item-service-box order__payment-service-box">
+                            <h5 class="order-list__item-service-name order__payment-service-name">При получении</h5>
+                            <p class="order-list__item-service-text order__payment-service-text">
+                              Оплата производится наличными или банковской картой, в момент получения заказа
+                            </p>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </fieldset>
+                    
+                  </div>
+
+                  <textarea class="order__comment" name="order-form-textarea"
+                  placeholder="Комментарий к заказу"></textarea>
+
+                  <div class="order__summary">
+
+                    <input class="order__promocode" type="text" placeholder="Промокод">
+                  
+                  <div class="order__summary-row">
+                    <p class="order__summary-name">Сумма</p>
+                    <p class="order__summary-value">200 000 ₽</p>
+                  </div>
+
+                  <div class="order__summary-row">
+                    <p class="order__summary-name">Доставка</p>
+                    <p class="order__summary-value">бесплатно</p>
+                  </div>
+
+                  <div class="order__summary-row">
+                    <p class="order__summary-name">Скидка</p>
+                    <p class="order__summary-value">0 ₽</p>
+                  </div>
+                  
+                  <div class="order__summary-row order__summary-row--result">
+                    <p class="order__summary-name order__summary-name--result">К оплате</p>
+                    <p class="order__summary-value order__summary-value--result">200 000 ₽</p>
+                  </div>
+
+                  <button class="get-order-btn" type="submit">
+                    Оформить заказ
+                  </button>
+                  
+                  <p class="order__personal-data-agreement">
+                    Нажимая на кнопку «Оформить заказ» вы даете согласие на <span class="order__personal-accent">обработку персональных данных.</span>
+                  </p>
+
+                  </div>
+
+                </form>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="sending">
+        <div class="container">
+          <div class="sending__inner">
+
+            <h2 class="section-title sending__title">
+              Подпишитесь на нашу рассылку
+            </h2>
+
+            <p class="section-subtitle sending__subtitle">
+              Вы будете получать актуальную информацию об акциях
+              и предложениях.
+            </p>
+
+            <form class="sending__form">
+              <fieldset class="sending__field">
+                <input class="sending__input" placeholder="Введите E-mail" type="email" required>
+
+                <button class="btn-primary sending__btn" type="submit">
+                  <span class="btn-text">Подписаться</span>
+
+                  <svg class="sending-svg" role="img" aria-label="">
+                    <use class="sending-icon" xlink:href="./images/spriteBox/sprite.svg#arrow-up-right"></use>
+                  </svg>
+                </button>
+
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__content-inner">
+
+            <a class="logo footer__logo" href="#" aria-label="fashion-di">
+              <svg class="svg-footer__logo" role="img" aria-label="fashion-di">
+                <use class="icon-footer__logo" xlink:href="./images/spriteBox/sprite.svg#logo"></use>
+              </svg>
+            </a>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №1</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">О бренде</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Магазины</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Контакты</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Доставка и оплата</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Ателье</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Сотрудничество</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №2</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">МЕНЮ №3</h3>
+
+              <nav class="footer__nav">
+                <ul class="nav__list nav__list--footer">
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link nav__link--footer link-underlined" href="#">Пример</a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="footer__item">
+              <h3 class="footer__item-title">КОНТАКТЫ</h3>
+
+              <div class="contact">
+                <p class="contact-name">Шоурум</p>
+
+                <a class="contact-link link-underlined" href="tel:+79999999999">+7 (999) 999 99 99</a>
+              </div>
+
+              <div class="contact">
+                <p class="contact-name">Интернет-магазин</p>
+
+                <a class="contact-link link-underlined" href="tel:+79999999999">+7 (999) 999 99 99</a>
+
+                <a class="contact-link link-underlined" href="mailto:sitename@sitename.ru">sitename@sitename.ru</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__law">
+        <div class="container">
+          <div class="footer__law-inner">
+
+            <p class="footer__law-link footer__copy">© 2023, FASHION DI</p>
+
+            <a class="footer__law-link footer__public" href="#">Публичная оферта</a>
+            <a class="footer__law-link footer__policy" href="#">Политика конфиденциальности</a>
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <script src="./source/jquery.min.js"></script>
+  <script src="./source/mixitup.js"></script>
+  <script src="./source/slick.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
